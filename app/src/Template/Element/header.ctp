@@ -1,1 +1,3 @@
-<header>サカヤクション</header>
+<header>
+  <?= $this->Html->link('サカヤクション', '/'); ?>
+</header>
