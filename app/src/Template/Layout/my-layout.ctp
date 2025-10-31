@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <?= $this->Html->charset() ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <?= $cakeDescription ?>:
+        <?= $this->fetch('title') ?>
+    </title>
+    <?= $this->Html->css('style.css') ?>
+</head>
+<body>
+    <?= $this->element('header'); ?>
+    <?= $this->Flash->render(); ?>
+    <div class="container clearfix">
+        <?= $this->fetch('content') ?>
+    </div>
+</body>
+</html>
